@@ -140,13 +140,13 @@ section {
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-gray-4);
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0.7rem 0;
+  margin: 0.9rem 0;
   box-shadow: var(--box-shadow-1);
 }
 .controls .control:hover {
@@ -168,7 +168,7 @@ section {
   color: crimson;
 }
 .controls .control i {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--color-gray-2);
   pointer-events: none;
 }
@@ -250,7 +250,7 @@ section {
   padding-right: 18rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2rem;
   background: linear-gradient(to right, slateblue 0%, crimson 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -258,7 +258,7 @@ section {
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
-  line-height: 2rem;
+  line-height: 1.5rem;
   background: linear-gradient(to right, #30CFD0 0%, #6c21c9 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -283,7 +283,7 @@ section {
   margin-top: 3rem;
 }
 .main-btn .btn-text {
-  padding: 0 2rem;
+  padding: 0 1rem;
   color: #30CFD0;
 }
 .main-btn .btn-icon {
@@ -292,7 +292,7 @@ section {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .main-btn::before {
   content: "";
@@ -315,7 +315,7 @@ section {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 1rem;
+  padding-left: 0rem;
   padding-bottom: 2rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
