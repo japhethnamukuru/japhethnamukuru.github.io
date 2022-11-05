@@ -909,7 +909,6 @@ section {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: var(--color-gray-5);
   }
   .controls .control {
     margin: 0.3rem 1rem;
